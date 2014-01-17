@@ -1,0 +1,43 @@
+groups:
+    - bash
+    - developer
+recipes:
+    global:
+        - dotfiles::sshconfig
+    mac_os_x:
+        - applications::clipmenu
+        - applications::1password
+        - applications::dropbox
+        - applications::evernote
+        - applications::alfred
+        - applications::totalfinder
+        - applications::cord
+        - applications::spotify
+        - applications::bartender
+        - sudo::default
+        - applications::virtualbox
+        - applications::vagrant
+        - osxdefaults::dock_automatically_hide_and_show_the_dock
+        - osxdefaults::dock_enable_spring_loading_for_all_dock_items
+        - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
+        - osxdefaults::dock_minimize_to_application
+        - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+        - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
+        - osxdefaults::dock_remove_the_auto-hiding_dock_delay
+        - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::menu_show_clock_with_date
+        - osxdefaults::mail_when_searching_do_not_include_trash
+        - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
+        - osxdefaults::set_computer_name
+attributes:
+    git:
+        name: David Paquet Pitts  
+        email: david.paquet@okam.ca
+    osxdefaults:
+        computername: Licorne
+    authorization:
+        sudo:
+            users:
+                - davidpaquet
+            passwordless: true
+            include_sudoers_d: true
