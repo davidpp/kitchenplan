@@ -5,6 +5,7 @@ recipes:
         - applications::firefox
         - applications::java
         - applications::vlc
+        - applications::adium
     mac_os_x:
         - osxdefaults::add_note_to_loginscreen
         - osxdefaults::disable_auto-correct
