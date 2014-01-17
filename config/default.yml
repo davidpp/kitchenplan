@@ -6,6 +6,8 @@ recipes:
         - applications::java
         - applications::vlc
         - applications::adium
+        - applications::hipchat
+        - applications::dropbox
     mac_os_x:
         - osxdefaults::add_note_to_loginscreen
         - osxdefaults::disable_auto-correct
