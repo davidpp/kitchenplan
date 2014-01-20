@@ -12,14 +12,11 @@ recipes:
         - applications::sass
         - applications::nodejs
         - applications::ssh_config
-        - dotfiles::vim
-        - applications::composer
         - dotfiles::workspace
     mac_os_x:
         - applications::imageoptim
         - applications::imagealpha
-        - applications::svgo
-        - applications::sublime_text_3t
+        - applications::sublime_text_3
         - applications::sequelpro
         - applications::sourcetree
         - osxdefaults::set_terminal_profile
@@ -53,13 +50,3 @@ recipes:
         - applications::xvfb
         - applications::pidgin
         - applications::ubuntu-desktop
-attributes:
-    mysql_root_password: "password"
-        vim:
-            bundle:
-                - sleuth: git://github.com/tpope/vim-sleuth.git
-                - sensible: git://github.com/tpope/vim-sensible.git
-                - gitgutter: git://github.com/airblade/vim-gitgutter.git
-                - airline: https://github.com/bling/vim-airline
-                - syntastic: git://github.com/scrooloose/syntastic.git
-                - nerdtree: https://github.com/scrooloose/nerdtree.git

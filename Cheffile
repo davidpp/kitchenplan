@@ -3,7 +3,7 @@ site "http://community.opscode.com/api/v1"
 #cookbook "pivotal-workstation",   :github => "pivotal/pivotal_workstation"
 
 cookbook "skylab",                :github => "Kunstmaan/chef-skylab"
-cookbook "applications",          :github => "kitchenplan/chef-applications"
+cookbook "applications",          :github => "davidpp/chef-applications"
 cookbook "osxdefaults",           :github => "kitchenplan/chef-osxdefaults"
 cookbook "dotfiles",              :github => "kitchenplan/chef-dotfiles"
 cookbook "drivers",               :github => "kitchenplan/chef-drivers"

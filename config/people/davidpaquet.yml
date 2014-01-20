@@ -1,19 +1,22 @@
 groups:
-    - bash
     - developer
 recipes:
     global:
         - dotfiles::sshconfig
     mac_os_x:
-        - applications::clipmenu
-        - applications::1password
         - applications::dropbox
+        - applications::google-drive
+        - applications::macvim
+        - applications::oh-my-zsh
         - applications::evernote
         - applications::alfred
         - applications::totalfinder
-        - applications::cord
         - applications::spotify
         - applications::bartender
+        - applications::android-sdk
+        - applications::cordova
+        - applications::google-hangouts
+        - applications::ant
         - sudo::default
         - applications::virtualbox
         - applications::vagrant
@@ -31,7 +34,7 @@ recipes:
         - osxdefaults::set_computer_name
 attributes:
     git:
-        name: David Paquet Pitts  
+        name: David Paquet Pitts
         email: david.paquet@okam.ca
     osxdefaults:
         computername: Licorne
